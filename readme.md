@@ -48,7 +48,7 @@ Una vez que tu entorno esté configurado, sigue estos pasos cada vez que quieras
 1.  **Inicia tu API**. En una terminal separada, ejecuta tu proyecto del restaurante. Asegúrate de que esté funcionando y anota la URL base (por ejemplo, `http://127.0.0.1:8000`).
 2.  **Ejecuta el probador**. Vuelve a la terminal donde tienes el entorno `(venv)` activado y ejecuta el siguiente comando, **reemplazando la URL de ejemplo** con la de tu API.
     ```bash
-    pytest --api-url=[http://127.0.0.1:8000]                  
+    pytest --api-url=http://127.0.0.1:8000                 
     ```
 
 IMPORTANTE: Debes buscar la URL de http (no https) , y es importante comentar la linea de  app.UseHttpsRedirection(); en tu program.cs.
