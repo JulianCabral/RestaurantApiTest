@@ -1,4 +1,4 @@
-# 🤖 Probador Automatizado - API de Restaurante
+# 🤖TESTER - API de Restaurante
 
 Este proyecto contiene un conjunto de pruebas automáticas para validar que tu API del restaurante cumpla con todos los requisitos de la **Parte 1** del Trabajo Práctico.
 
