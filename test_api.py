@@ -2,13 +2,6 @@ import requests
 import pytest
 from uuid import uuid4
 
-# --- Fixtures de Pytest (Ayudantes para las pruebas) ---
-
-@pytest.fixture
-def base_url():
-    """Define la URL base de la API para las pruebas."""
-    return "http://localhost:8080" # Ajusta esto a la URL de tu API en ejecución
-
 @pytest.fixture
 def new_dish_payload():
     """Proporciona un payload base para crear un nuevo plato con un nombre único."""
